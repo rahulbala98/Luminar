@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,14 +13,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./index.css">
+
 </head>
 <nav class="navbar navbar-expand-lg  " style="background-color: rgb(255, 255, 255);">
     <div class="container">
         <img src="./Logo/lum.jpg" alt="">
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
 
@@ -57,26 +59,130 @@
                 </li>
 
             </ul>
-
-
-
-
-
-
-            <!-- <form class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </form> -->
         </div>
     </div>
 </nav>
-</body>
-
-</html>
+<!-- carousel -->
 
 
-<body>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2000">
+            <img id="i1" src="./Logo/1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption text-start mb-5 ">
+                <!-- mb-5 pb-5 -->
+                <br>
+                <br>
+                <h1>Kerala's No.1 IT Finishing School</h1>
+                <h1>100% Placement Assistance</h1> <br>
+                <p>We at LUMINAR TECHNOLAB offers best software training and placement in <br> PYTHON,emerging
+                    technologies like BIG DATA,DATA Science,like BIG DATA,DATA Science, <br> Machine Learning,PYTHON,
+                    Software testing </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <button id="b1" type="button" class="btn btn-primary  "><b>View Courses </b> </button>
+            </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+            <img id="i1" src="./Logo/2.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption text-start mb-5 ">
 
+                <h1>Kerala's No.1 IT Finishing School</h1>
+                <h1>100% Placement Assistance</h1> <br>
+                <p>We at LUMINAR TECHNOLAB offers best software training and placement in <br> PYTHON,emerging
+                    technologies like BIG DATA,DATA Science,like BIG DATA,DATA Science, <br> Machine Learning,PYTHON,
+                    Software testing </p>
+                <br>
+                <br>
+                <br>
+                <br>
+                <button id="b1" type="button" class="btn btn-primary  "> <b> View Courses</b></button>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+
+    </button>
+</div>
+<br>
+<!-- Button trigger modal -->
+<button id="b2" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"> <b>Get Info</b></button>
+  
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 itemid="m1" class="modal-title fs-5" id="exampleModalLabel"></h1>
+          <br>
+
+          <form class="container">
+            <h2>Get Training Quote For Free</h2> 
+            <br>
+            <div class="text-end">
+                <button type="button" class="btn-close "  data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <br>
+            <input class="form-control" type="text" placeholder="Name" id="z4"><br>  
+        <input class="form-control" type="email" placeholder="Email ID" id="z2"><br>
+        <input class="form-control" type="tel" placeholder="Mobile NO" id="z3"><br>
+        
+        <select class="form-control" name="" id="z5">
+            <option value="">Select Course Intrested</option>
+            <option value="">PYTHON</option>
+            <option value="">MEARN</option>
+            <option value="">Testing</option>
+        
+        </select>   
+        <br>
+        
+        <input class="form-control" type="text" placeholder="Comments">
+        <textarea class="form-control" name="" id="z8" cols="20" rows="5"></textarea><br>
+
+<div class="text-centre">
+            <button id="b3" type="button" class="btn btn-primary">Submit</button>
     
+</div>       
+            
+              
+        </form>
+    
+
+
+
+         
+    
+        
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
 </body>
+
 </html>

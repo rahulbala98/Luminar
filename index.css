@@ -1,0 +1,52 @@
+
+ #i1{
+    width: 100%;
+    height: 500px;
+} 
+
+#b1{
+    
+    background-color: rgb(104, 4, 158);
+    border-radius: 20px;
+    width: 13%;
+    height: 50px;
+    border-color: rgb(104,4,158);   
+}
+#b2{
+    background-color: rgb(104, 4, 158);
+    border-radius: 20px;
+    width: 5%;
+    height: 40px;
+    border-color: rgb(104,4,158);
+}
+#b3{
+    text-align: center;
+    background-color: rgb(104,4,158);
+
+}
+@media(orientation:portrait)
+{  
+    #b2{ 
+        height: 50px;
+        width: 90px;
+        font-size: smaller;
+        font-weight: lighter;
+    } 
+    #b1{
+        height: 50px;
+        width: 90px;
+        font-size: smaller;
+        font-weight: lighter; 
+    }
+ 
+     h1{
+    font-size: large;
+    }
+    p{
+    font-size:small;
+     }
+}
+
+ 
+
+
