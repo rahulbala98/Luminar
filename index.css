@@ -97,6 +97,15 @@
         font-weight: lighter;
 
      }
+     #rowbut:hover{
+        height: 32px;
+        width: 122px;
+        border-radius: 50px;
+        border-color: rgb(104, 4, 158);
+        color: white;
+        background-color: rgb(104, 4, 158);;
+    }
+    
 }
 
  
