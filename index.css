@@ -90,6 +90,13 @@
     p{
     font-size:small;
      }
+     #rowbut{
+        height: 32px;
+        width: 122px;
+        font-size: smaller;
+        font-weight: lighter;
+
+     }
 }
 
  
