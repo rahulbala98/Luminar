@@ -24,6 +24,51 @@
     background-color: rgb(104,4,158);
 
 }
+#k1{
+    color: rgb(104, 4, 158);
+    
+}
+#r1{
+    color: rgb(134, 91, 173);
+}
+#b4{
+    background-color: rgb(104, 4, 158);
+    border-radius: 50px;
+    width: 150px;
+    height: 50px;
+    border-color: rgb(104,4,158);   
+}
+
+
+#borrow:hover{
+    transform: scale(1.01);
+}
+
+#toprow:hover{
+    transform: scale(1.01);
+}
+
+#rowbut{
+    height: 60px;
+    width: 170px;
+    border-radius: 50px;
+    border-color: rgb(104, 4, 158);
+    color: rgb(104, 4, 158);;
+}
+
+#rowbut:hover{
+    height: 60px;
+    width: 170px;
+    border-radius: 50px;
+    border-color: rgb(104, 4, 158);
+    color: white;
+    background-color: rgb(104, 4, 158);;
+}
+
+
+
+
+
 @media(orientation:portrait)
 {  
     #b2{ 
